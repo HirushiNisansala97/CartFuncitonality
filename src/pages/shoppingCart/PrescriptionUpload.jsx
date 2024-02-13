@@ -4,6 +4,26 @@ import  { useState, useEffect } from 'react';
 import '../../assets/css/style.css';
 
 const PrescriptionUpload =()=>{
+    const [email, setEmail] = useState('');
+
+    const handleEmailChange = (event) => {
+        setEmail(event.target.value);
+    };
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [phoneNumber, setPhoneNumber] = useState('');
+
+    const handleFirstNameChange = (event) => {
+        setFirstName(event.target.value);
+    };
+
+    const handleLastNameChange = (event) => {
+        setLastName(event.target.value);
+    };
+
+    const handlePhoneNumberChange = (event) => {
+        setPhoneNumber(event.target.value);
+    };
 
     
 
@@ -32,24 +52,57 @@ const PrescriptionUpload =()=>{
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input type="text" id="first-name" name="first-name" className="form-control" placeholder="First Name" value="" />
+                                    <input
+                                        type="text"
+                                        id="first-name"
+                                        name="first-name"
+                                        className="form-control"
+                                        placeholder="First Name"
+                                        value={firstName}
+                                        onChange={handleFirstNameChange}
+                                        />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input type="text" id="last-name" name="last-name" className="form-control" placeholder="Last Name" value="" />
+                                    <input
+                                        type="text"
+                                        id="last-name"
+                                        name="last-name"
+                                        className="form-control"
+                                        placeholder="Last Name"
+                                        value={lastName}
+                                        onChange={handleLastNameChange}
+                                        />
                                     </div>
                                 </div>
                             </div>
                             
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <input type="text" id="number" name="number" className="form-control" placeholder="Phone Number" value="" />
+                                <input
+                                    type="text"
+                                    id="number"
+                                    name="number"
+                                    className="form-control"
+                                    placeholder="Phone Number"
+                                    value={phoneNumber}
+                                    onChange={handlePhoneNumberChange}
+                                    />
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <input type="email" id="email" name="email" className="form-control" placeholder="Email Address" value="" />
+                                <label htmlFor="email">Email Address</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        className="form-control"
+                                        placeholder="Email Address"
+                                        value={email}
+                                        onChange={handleEmailChange}
+                                    />
                                 </div>
                             </div>
                             

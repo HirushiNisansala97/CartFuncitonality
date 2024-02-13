@@ -48,6 +48,7 @@
     height: 200px;
     font-size: 30px;
     background-image: url(../../assets//img/Untitled-.jpg);
+    color: aliceblue;
 }
 .shoppingPage{
     margin-top: 100px;
@@ -59,8 +60,8 @@ width: 1100px;
 margin-left: 120px;
 margin-top: 60px;
 margin-right: 120px;
-
 }
+
 .btnLine{
     /* background-color: blueviolet; */
     width: 1300px;
@@ -151,7 +152,7 @@ margin-right: 120px;
 }
 .pharmacistDashBoardNavBar{
     background-color:rgb(116, 219, 13);
-    width: 1390px;
+    width: 1375px;
     height: 43px;
     margin-top: 0px;
 }
@@ -164,8 +165,8 @@ margin-right: 120px;
     font-size: 25px;
 }
 .space{
-    width: 1390px;
-    height: 12px;
+    width: 1375px;
+    height: 6px;
 }
 .rightSidePanel{
     text-align: left;
@@ -190,6 +191,7 @@ margin-right: 120px;
     margin-top: 10px;
     width: 945px;
     height: 10px;
+    font-size: 10px;
 }
 .searchIcon{
     background-color: #b7b761;
@@ -207,7 +209,7 @@ margin-right: 120px;
     width: 833px;
     margin-top: 4px;
     text-align:left;
-    font-size: 27px;
+    font-size: 14px;
 
 }
 .prescriptionTable{
@@ -219,4 +221,10 @@ margin-right: 120px;
     height: 100px;
     width: 100px; 
     background-image: url(../../assets//img/Untitled4.jpg);
+}
+.checkoutTable{
+    width: 1300px;
+}
+.blank{
+    width: 80px;
 }

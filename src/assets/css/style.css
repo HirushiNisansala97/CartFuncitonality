@@ -7024,7 +7024,7 @@ blockquote {
 .cart-img{
     height: 100px;
     width: 100px;
-    background-image: url(../../assets//img//logo.png);
+    background-image: url(../../assets//img/Untitled5.jpg);
 }
 
 .cart-single-item {
@@ -7048,17 +7048,17 @@ blockquote {
     flex: none;
     width: 90px; }
   .cart-single-item .product-price:before {
-    content: '$'; }
+    content: 'LKR '; }
   .cart-single-item .product-total-price {
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
-    width: 50px;
+    width: 90 px;
     font-weight: 600;
     text-align: center;
     color: #1a2428; }
     .cart-single-item .product-total-price:before {
-      content: '$'; }
+      content: 'LKR '; }
   @media only screen and (max-width: 767px) {
     .cart-single-item {
       text-align: center;
@@ -7174,18 +7174,18 @@ blockquote {
 .payment-method ul {
   border: 1px solid rgba(118, 167, 19, 0.15); }
   .payment-method ul li {
-    padding: 15px 20px 15px 45px; }
+    padding: 10px 20px 15px 45px; }
     .payment-method ul li:not(:last-child) {
       border-bottom: 1px solid rgba(118, 167, 19, 0.15); }
   .payment-method ul .custom-control-label {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    /* display: flex; */
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left; }
     .payment-method ul .custom-control-label i {
-      margin-left: 10px;
+      margin-left: 20px;
       color: #76a713; }
     .payment-method ul .custom-control-label:before {
       top: 7px; }
@@ -7196,14 +7196,15 @@ blockquote {
     border-color: #1a2428; }
 
 .shoping-cart-total table {
-  width: 100%; }
+  width: 100%;
+margin-left: 10px; }
 
 .shoping-cart-total tbody {
   background: #f3f3f3; }
   .shoping-cart-total tbody tr:not(:last-child) {
     border-bottom: 1px solid rgba(118, 167, 19, 0.15); }
   .shoping-cart-total tbody tr td {
-    padding: 10px 25px; }
+    padding: 10px 40px; }
     @media only screen and (max-width: 375px) {
       .shoping-cart-total tbody tr td {
         padding-left: 22px;

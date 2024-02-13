@@ -6,6 +6,7 @@ import '../../assets/css/style.css';
 
 const ShoppingCart =()=>{
 
+ 
     
 
     return(
@@ -29,35 +30,35 @@ const ShoppingCart =()=>{
             <div className="cart-item-wrap mb-35 wow fadeInUp delay-0-2s" style={{ visibility: 'visible' }}>
       <div className="cart-single-item">
         <button type="button" className="close">
-          <span aria-hidden="true">×</span>
+           <span aria-hidden="true">×</span>
         </button>
         <div className="cart-img">
-          {/* <img src="assets/images/widgets/product2.png" alt="Product Image" /> */}
+          
         </div>
-        <h5 className="product-name">Orange Fruits</h5>
-        <span className="product-price">250</span>
+        <h5 className="product-name">Metforming 500mg</h5>
+        <span className="product-price">50.00</span>
         <div className="quantity-input">
           <button className="quantity-down">-</button>
           <input className="quantity" type="text" name="quantity" value="1" />
           <button className="quantity-up">+</button>
         </div>
-        <span className="product-total-price">250</span>
+        <span className="product-total-price">50.00</span>
       </div>
       <div className="cart-single-item">
         <button type="button" className="close">
           <span aria-hidden="true">×</span>
         </button>
         <div className="cart-img">
-          {/* <img src="assets/images/widgets/product3.png" alt="Product Image" /> */}
+          
         </div>
-        <h5 className="product-name">Fresh Broccoli</h5>
-        <span className="product-price">250</span>
+        <h5 className="product-name">Metforming 500mg</h5>
+        <span className="product-price">50.00</span>
         <div className="quantity-input">
           <button className="quantity-down">-</button>
           <input className="quantity" type="text" name="quantity" value="1" />
           <button className="quantity-up">+</button>
         </div>
-        <span className="product-total-price">250</span>
+        <span className="product-total-price">50.00</span>
       </div>
       <div className="cart-single-item">
         <button type="button" className="close">
@@ -67,14 +68,14 @@ const ShoppingCart =()=>{
         {/* <img src={require('../../assets/img/')} alt="bread"/> */}
           {/* <img src="assets/images/" alt="Product Image" /> */}
         </div>
-        <h5 className="product-name">Bread Grains</h5>
-        <span className="product-price">250</span>
+        <h5 className="product-name">Metforming 500mg</h5>
+        <span className="product-price">50.00</span>
         <div className="quantity-input">
           <button className="quantity-down">-</button>
           <input className="quantity" type="text" name="quantity" value="1" />
           <button className="quantity-up">+</button>
         </div>
-        <span className="product-total-price">250</span>
+        <span className="product-total-price">50.00</span>
       </div>
     </div>
             </div>
@@ -117,7 +118,7 @@ const ShoppingCart =()=>{
                         <tbody>
                             <tr>
                                 <td>Cart Subtotal</td>
-                                <td class="sub-total-price">750.00</td>
+                                <td class="sub-total-price">150.00</td>
                             </tr>
                             <tr>
                                 <td>Shipping Fee</td>
@@ -129,7 +130,7 @@ const ShoppingCart =()=>{
                             </tr>
                             <tr>
                                 <td><strong>Order Total</strong></td>
-                                <td><strong class="total-price">882.50</strong></td>
+                                <td><strong class="total-price">282.50</strong></td>
                             </tr>
                         </tbody>
                     </table>
